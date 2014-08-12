@@ -1,0 +1,13 @@
+ros-hydro-jaco-demo (1.0.1-0raring) raring; urgency=high
+
+
+
+ -- Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>  Mon, 11 Aug 2014 04:00:00 -0000
+
+ros-hydro-jaco-demo (1.0.0-0raring) raring; urgency=high
+
+  * Initial catkin release
+
+ -- Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>  Sun, 10 Aug 2014 04:00:00 -0000
+
+
