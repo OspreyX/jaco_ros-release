@@ -1,0 +1,12 @@
+Source: ros-hydro-jaco-driver
+Section: misc
+Priority: extra
+Maintainer: Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libusb-1.0-0, ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-angles, ros-hydro-catkin, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-jaco-msgs, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf
+Homepage: http://wiki.ros.org/jaco
+Standards-Version: 3.9.2
+
+Package: ros-hydro-jaco-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libusb-1.0-0, ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-angles, ros-hydro-geometry-msgs, ros-hydro-jaco-msgs, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf
+Description: The ROS JACO Arm stack provides a ROS interface for the Kinova Robotics JACO robotic manipulator arm. This stack provides access to the Kinova JACO C++ hardware API through ROS.
