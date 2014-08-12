@@ -1,0 +1,12 @@
+Source: ros-hydro-jaco-model
+Section: misc
+Priority: extra
+Maintainer: Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-urdf, ros-hydro-xacro
+Homepage: http://ros.org/wiki/jaco_model
+Standards-Version: 3.9.2
+
+Package: ros-hydro-jaco-model
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-urdf, ros-hydro-xacro
+Description: 3D model of the Kinova JACO arm. Includes the model and URDF files for working with the arm in RViz or Gazebo.
