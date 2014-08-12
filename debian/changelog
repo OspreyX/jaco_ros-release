@@ -1,7 +1,0 @@
-ros-hydro-jaco-model (1.0.0-0quantal) quantal; urgency=high
-
-  * Initial catkin release
-
- -- Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>  Sun, 10 Aug 2014 04:00:00 -0000
-
-
